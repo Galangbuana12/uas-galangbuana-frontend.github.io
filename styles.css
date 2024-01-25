@@ -1,0 +1,420 @@
+/* Body Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #192655;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #435585 !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #b4bdff !important;
+}
+
+.inside-container {
+  max-width: 940px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.inside-pengurus {
+  max-width: 940px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* home */
+#home {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+    url(Aset/IMG_3183.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  --animate-delay: 0.5s;
+}
+
+#home::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+#home .content {
+  margin-top: 150px;
+  padding: 1.4rem 7%;
+  max-width: 60rem;
+}
+
+#home .content h3 {
+  font-size: 60px;
+  color: #fff;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+#home .content h3 span {
+  color: #ffffff;
+}
+
+#home .content p {
+  margin-top: 10px;
+  color: #fff;
+  line-height: 20px;
+  font-weight: 100;
+  --animate-delay: 0.8s;
+}
+
+#home .home-btn {
+  width: 150px;
+  height: 36px;
+  margin-top: 20px;
+  color: #fff;
+  background: #435585;
+  border-radius: 5px;
+  font-weight: 700;
+  border: none;
+  --animate-delay: 1.1s;
+}
+
+#home .home-btn:hover {
+  background: #818fb4;
+  transition: 0.2s;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+  background-color: #435585;
+  color: #ffffff;
+  text-align: justify;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.jumbotron-2 {
+  background-color: #435585;
+  color: #ffffff;
+  text-align: justify;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+span > h1 {
+  color: #ffffff;
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Card Styles */
+.top-card {
+  padding-top: 5px;
+}
+
+.card {
+  transition: transform 0.3s;
+  /* height: 41rem;
+  margin-top: 20px; */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Button Card Styles */
+.btn-primary {
+  background-color: #435585;
+  border-color: #435585;
+}
+
+.btn-primary:hover {
+  background-color: #818fb4;
+  border-color: #818fb4;
+  color: #ffffff;
+}
+
+.card-text {
+  height: 11rem;
+}
+
+/* Wave Shape */
+.custom-shape-divider-top-1700015595 {
+  position: absolute;
+  margin-top: 0;
+  padding-top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1700015595 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-top-1700015595 .shape-fill {
+  fill: #192655;
+}
+
+/* Wave Opacity */
+.custom-shape-divider-top-1700066330 {
+  position: absolute;
+  margin-top: -30px;
+  padding-top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1700066330 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-top-1700066330 .shape-fill {
+  fill: #435585;
+}
+
+/* Kegiatan UKM Multimedia */
+.display-kegiatan {
+  padding-top: 10%;
+  text-align: center;
+}
+
+/* Carousel */
+.carousel-item {
+  height: 600px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Style for Jumbotron */
+.jumbotron-3 {
+  background-color: #19376d; /* Background color */
+  padding: 50px 0; /* Padding top and bottom */
+  text-align: center;
+}
+
+/* Style for the Contact Section */
+.inside-container.contact-section {
+  padding: 50px 0;
+}
+
+/* Style for the Section Title */
+.section-title {
+  font-size: 2em;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Style for the Section Title Description */
+.section-title-desc {
+  font-size: 1.2em;
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Style for the Make an Registration Section */
+.registration {
+  margin-bottom: 30px;
+}
+
+/* Style for the registration Title */
+.registration-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+/* Style for the registration Description */
+.registration-desc {
+  font-size: 1.1em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Style for the registration Form */
+.registration-form {
+  margin-top: 20px;
+}
+
+/* Style for the Form Inputs */
+.registration-form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the Form Textarea */
+.registration-form-text {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the Form Button */
+.registration-form-btn {
+  background-color: #435585;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.registration-form-btn:hover {
+  background-color: #818fb4;
+}
+
+/* Style for the Open Time Section */
+.open-time {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Style for the Open Time Title */
+.open-time-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Style for the Open Time Clock and Course */
+.open-time-clock,
+.open-time-course {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .registration-form-col-left,
+  .registration-form-col-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+  .navbar-nav .nav-link {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #home .content {
+    margin-top: 50px;
+    padding: 1.4rem;
+  }
+  #home .content h3 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  #home .content p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #home .home-btn {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .card {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .display-kegiatan {
+    padding-top: 30px;
+  }
+  .jumbotron-2 .container p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .jumbotron-2 .container button {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .carousel-item {
+    height: auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .inside-container.contact-section {
+    padding: 30px 0;
+  }
+  .registration {
+    margin-bottom: 20px;
+  }
+  .registration-form-col-left,
+  .registration-form-col-right {
+    width: 100%;
+  }
+  .open-time {
+    text-align: left;
+  }
+}
+
+@media (max-width: 767.98px) {
+  footer {
+    padding: 10px;
+  }
+}
+
+/* Footer Styles */
+footer {
+  background-color: #435585;
+  color: #ffffff;
+}
